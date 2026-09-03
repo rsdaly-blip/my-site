@@ -10,10 +10,10 @@
  */
 
 /** ── 1. Pick your palette ──────────────────────────────────────────────
- * One word from: "regatta" | "dune" | "orchard" | "noir"
+ * One word from: "regatta" | "dune" | "orchard" | "noir" | "tailor"
  * (Or invent your own: copy a palette below, change the colors, name it.)
  */
-export const paletteChoice = "regatta";
+export const paletteChoice = "tailor";
 
 /** ── 2. Pick your font pairing ─────────────────────────────────────────
  * One word from: "editorial" | "geometric" | "classic"
@@ -21,7 +21,7 @@ export const paletteChoice = "regatta";
  *   geometric — modern grotesk headings (tech/startup feel)
  *   classic   — high-contrast serif headings (timeless feel)
  */
-export const fontChoice = "editorial";
+export const fontChoice = "geometric";
 
 /** ── 3. (Optional) Override the accent ─────────────────────────────────
  * Set to any CSS color (e.g. "#c2410c" or "rebeccapurple") to replace the
@@ -91,6 +91,20 @@ export const PALETTES: Record<string, Palette> = {
     line: "#2c2c31",
     accent: "#e8b04b",
     accentInk: "#1a1508",
+  },
+  /**
+   * Sampled from the headshot: the navy suit is the page, the white shirt
+   * is the type, a lighter tie-blue is the one accent. Dark on purpose so
+   * it cannot be mistaken for the cream template.
+   */
+  tailor: {
+    paper: "#101820",
+    surface: "#1a2433",
+    ink: "#f3f1eb",
+    muted: "#9aa6b5",
+    line: "#2c3a4d",
+    accent: "#6eb4e0",
+    accentInk: "#0c141c",
   },
 };
 

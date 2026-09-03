@@ -30,7 +30,7 @@ export const profile = {
    */
   funFacts: [
     "Last winter I studied abroad in Paris, France.",
-    "I am a Teaching Assistant in the Lerner School of Business and Economics.",
+    "I am a Teaching Assistant in the Lerner School of Business.",
   ],
 
   /** One decision you're proud of, in a sentence. */

@@ -6,7 +6,7 @@ You never have to write CSS. You have three dials:
 ## 1. The palette (one word)
 
 ```ts
-export const paletteChoice = "regatta";
+export const paletteChoice = "tailor";
 ```
 
 | Palette | Feel |
@@ -15,6 +15,7 @@ export const paletteChoice = "regatta";
 | `dune` | Warm sand and terracotta — desert light |
 | `orchard` | Cool greens on off-white — botanical, calm |
 | `noir` | Near-black with a hot gold accent — gallery at night |
+| `tailor` | Navy suit as the page, shirt-white type, ice-blue accent — evening, tailored |
 
 Each palette is a complete scheme: page background, card surfaces, two text
 tones, hairline borders, and one accent, with contrast that passes
@@ -24,7 +25,7 @@ change the colors, give it a name, and set `paletteChoice` to it.
 ## 2. The font pairing (one word)
 
 ```ts
-export const fontChoice = "editorial";
+export const fontChoice = "geometric";
 ```
 
 | Pairing | Headings | Feel |
@@ -74,3 +75,16 @@ photo, applied everywhere.
 
 The course teaches the underlying eye in Chapter 4 (Make It Yours) and
 Chapter 16 (The Four Stages of Visualization).
+
+---
+
+## My choices
+
+These are the three dials in [`src/theme.ts`](./src/theme.ts), set from the
+headshot in `public/headshot updated.png` (navy suit, white shirt, dark tie).
+
+| Dial | Choice | Why |
+|---|---|---|
+| Palette | `tailor` (custom, dark) | The suit is the page background; type is shirt-white. Unmistakably not the cream template. |
+| Fonts | `geometric` | Space Grotesk headings — modern, like analytics, not the template serif. |
+| Accent | palette default (`#6eb4e0`) | One ice-blue, used for links, buttons, and highlights. |
