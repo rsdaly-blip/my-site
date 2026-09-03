@@ -35,7 +35,7 @@ export const profile = {
 
   /** One decision you're proud of, in a sentence. */
   decisionImProudOf:
-    "I stayed in the same house as last school year, so I didn't have to move all my stuff",
+    "I stayed in the same house as I did last school year, so I didn't have to move all my stuff this summer",
 
   /**
    * Your photo. Replace public/photo.svg with a real photo of you
@@ -58,7 +58,7 @@ export const profile = {
    * A short bio for your home page: two or three sentences, written like
    * a person, not a resume. What are you studying? What do you care about?
    */
-  bio: "I am a double-major in Operations Management and Business Analytics. I enjoy watching and playing sports, trying to new, hiking, and spending time with my friends and family.",
+  bio: "I'm a double-major in Operations Management and Business Analytics. I enjoy watching and playing sports, trying to new, hiking, and spending time with my friends and family.",
 
   /**
    * Your GitHub repo URL. The course platform reads this from /api/health to
